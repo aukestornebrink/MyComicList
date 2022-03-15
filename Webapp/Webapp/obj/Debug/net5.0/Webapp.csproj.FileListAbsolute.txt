@@ -39,3 +39,4 @@ C:\Users\marcd\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\ne
 C:\Users\marcd\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\net5.0\Webapp.genruntimeconfig.cache
 C:\Users\marcd\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\net5.0\Webapp.csproj.CopyComplete
 C:\Users\marcd\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\net5.0\Razor\Pages\Inlogpagina.cshtml.g.cs
+C:\Users\marcd\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\net5.0\Razor\Pages\Registerpagina.cshtml.g.cs

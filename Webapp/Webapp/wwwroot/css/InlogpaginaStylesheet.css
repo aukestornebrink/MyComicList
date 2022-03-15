@@ -1,7 +1,7 @@
 .titelrow {
     display: flex; /*Zodat er een flexbox gemaakt word8*/
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
     
 }
@@ -26,8 +26,18 @@
     flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.registerlink{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 30px;
     align-items: center;
     justify-items: center;
 }
