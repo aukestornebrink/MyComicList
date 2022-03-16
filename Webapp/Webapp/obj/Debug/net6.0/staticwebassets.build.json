@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x7GrlG1IpV3iWvYgiXbkvreCnCEiRz4ZL7TvpYbbEN0=",
+  "Hash": "DqYnaf7TLaQ49nYiEJw7Jd52+aneMUxmbT1PZfHfes4=",
   "Source": "Webapp",
   "BasePath": "_content/Webapp",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\css\\LoginPageStylesheet.css",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "css/LoginPageStylesheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginPageStylesheet.css"
+    },
+    {
+      "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\css\\RegisterPageStylesheet.css",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "css/RegisterPageStylesheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegisterPageStylesheet.css"
+    },
     {
       "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\css\\site.css",
       "SourceId": "Webapp",
