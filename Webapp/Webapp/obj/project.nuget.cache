@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "40F6LgqoDzVW8NpO6ltQN33wKTv595uD2lhUVyuRPqHbz1obxqBc/w8ycJg0izEfNYlNXXdM4uGXVmYJTFHrcw==",
+  "dgSpecHash": "q6zbACLf9VN6giujLBB5CPtjSHz4JsBfwC2He5dJvYxBcLUjJjNt+G6iyJOmVI7QgI1lRTAsQHwVp6FZhjOotw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marcd\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\auke_\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\auke_\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
+  ],
   "logs": []
 }
