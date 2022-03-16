@@ -1,0 +1,49 @@
+﻿@page
+@model Webapp.Pages.LoginPage
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/LoginPageStylesheet.css"/> @*Stylesheet voor de inlogpagina*@
+    <script src="~/js/LoginPageScript.js"></script>  @*Javascript voor de inlogpagina*@
+</head>
+
+<body>
+<div>
+    <div class="container1"> @*De grote container waar alle inhoud in zit*@
+                <div class="titelrow"> @*De "inlog" titel*@
+                    <h1 class="display-4">Login</h1>
+                </div>
+                <div class="logindoos">
+                    <form>
+                        
+                        <div class="invulbalk1">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+                        </div>
+    
+                        <div class="invulbalk2">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+    
+                        <div class="submitknop">
+                            <button type="submit" class="btn btn-primary">Sign-in</button>
+                        </div>
+                        
+                        <div class="registerlink">
+                            <a asp-area="" asp-page="/Registerpagina">Register</a>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+</div>
+</body>
+</html>
