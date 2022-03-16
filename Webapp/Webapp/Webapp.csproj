@@ -6,4 +6,14 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net6.0\Webapp.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net6.0\Webapp.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net6.0\Webapp.RazorAssemblyInfo.cache" />
+    </ItemGroup>
+
 </Project>

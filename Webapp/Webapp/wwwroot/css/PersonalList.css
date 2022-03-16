@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.div {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+img {
+    float: left;
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+}
+
+.title {
+    justify-content: right;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
+
+.series {
+    justify-content: right;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+.author {
+    justify-content: right;
+    text-align: center;
+    font-size: large;
+}

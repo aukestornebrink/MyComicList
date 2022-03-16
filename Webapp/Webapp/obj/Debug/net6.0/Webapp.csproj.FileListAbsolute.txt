@@ -17,9 +17,7 @@ C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\Webap
 C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\Webapp.RazorAssemblyInfo.cs
 C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\scopedcss\bundle\Webapp.styles.css
-C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\scopedcss\projectbundle\Webapp.bundle.scp.css
 C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\Webapp.dll
 C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\ref\Webapp.dll
 C:\Users\klaas\Documents\GitHub\MyComicList\WebApp\Webapp\obj\Debug\net6.0\Webapp.pdb
