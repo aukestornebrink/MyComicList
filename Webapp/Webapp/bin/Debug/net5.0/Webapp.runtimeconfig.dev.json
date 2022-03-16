@@ -3,7 +3,7 @@
     "additionalProbingPaths": [
       "C:\\Users\\auke_\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\auke_\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "D:\\Programs\\VSShared\\NuGetPackages",
       "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ]
   }

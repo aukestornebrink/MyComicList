@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\auke_\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {}
+    "C:\\Users\\auke_\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\auke_\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {
+    "C:\\Users\\auke_\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\auke_\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+        "projectUniqueName": "C:\\Users\\auke_\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
         "projectName": "Webapp",
-        "projectPath": "C:\\Users\\auke_\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+        "projectPath": "C:\\Users\\auke_\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
         "packagesPath": "C:\\Users\\auke_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\auke_\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\obj\\",
+        "outputPath": "C:\\Users\\auke_\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "D:\\Programs\\VSShared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
         ],
         "configFilePaths": [
@@ -55,12 +55,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.15, 5.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
