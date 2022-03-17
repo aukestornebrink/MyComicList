@@ -6,4 +6,18 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Include="wwwroot\example.jpg" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.123" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="6.0.0-preview.4.21253.5" />
+      <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0-preview.2.22153.1" />
+      <PackageReference Include="MySql.Data" Version="8.0.28" />
+      <PackageReference Include="MySql.Web" Version="8.0.28" />
+      <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
+    </ItemGroup>
+
 </Project>
