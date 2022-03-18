@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IjxNmt75kV0efMnnYGGzn1+GHmj8HpteJTLtXdRIMGQ=",
+  "Hash": "7IY51cnwKCXH76BuQlq72gBsx9IXX/g8p7K2zCyo6Hk=",
   "Source": "Webapp",
   "BasePath": "_content/Webapp",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "wwwroot\\content\\sw300.jpg"
     },
     {
+      "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\LoginPageStylesheet.css",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "css/LoginPageStylesheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginPageStylesheet.css"
+    },
+    {
       "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\PersonalList.css",
       "SourceId": "Webapp",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\PersonalList.css"
+    },
+    {
+      "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\RegisterPageStylesheet.css",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "css/RegisterPageStylesheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegisterPageStylesheet.css"
     },
     {
       "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\site.css",
