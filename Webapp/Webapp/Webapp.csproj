@@ -20,4 +20,10 @@
       <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Update="Pages\LoginPage.cshtml.cs">
+        <DependentUpon>LoginPage.cshtml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
