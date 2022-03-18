@@ -38,9 +38,19 @@
             <br/>
             <br/>
             <p class="Synopsys">Altijd hetzelfde! Voor Donald hebben oom Dagobert en Katrien geen goed woord over, maar SuperDonald vinden ze helemaal super!
-                                En dus neemt Donald een moeilijk besluit... Voortaan is hij alleen nog SuperDonald! Weer een spannend avontuur in de nieuwste Donald Duck Pocket!</p>
+                En dus neemt Donald een moeilijk besluit... Voortaan is hij alleen nog SuperDonald! Weer een spannend avontuur in de nieuwste Donald Duck Pocket!</p>
         </div>
     </div>
 </div>
+
+
+<div>
+    @foreach (var entry in Model.List)
+    {
+        <partial name ="_DisplayList" model="entry"/>
+    }
+</div>
+
+
 </body>
 </html>

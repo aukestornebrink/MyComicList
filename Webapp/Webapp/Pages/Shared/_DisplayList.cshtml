@@ -1,0 +1,14 @@
+@model Webapp.PersonalLists
+
+<div class="flex-container"> @*Create Flexbox*@
+    <div class="div">
+        <img src="~/content/sw300.jpg" alt="Suske en Wiske Strip 300"/> @*Cover image*@
+        <h1 class="series">@Model.Series</h1> @*Series title*@
+        <h2 class="title">@Model.Name</h2> @*Book title*@
+        <br/> @*Break line for space*@
+        <h3 class="author">@Model.Author</h3> @*Author and publisher*@
+        <br/>
+        <br/>
+        <p class="Synopsys">@Model.Summary</p> @*Synopsys*@
+    </div>
+</div>
