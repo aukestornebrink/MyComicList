@@ -16,4 +16,9 @@
       <Content Include="obj\Debug\net6.0\Webapp.RazorAssemblyInfo.cache" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.123" />
+      <PackageReference Include="MySql.Data" Version="8.0.28" />
+    </ItemGroup>
+
 </Project>
