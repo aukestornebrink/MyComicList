@@ -1,6 +1,6 @@
 namespace Webapp;
 
-public class PersonalLists
+public class PersonalLists //Gewoon een list eigenlijk
 {
     public string Name { get; set; }
     public string Series { get; set; }

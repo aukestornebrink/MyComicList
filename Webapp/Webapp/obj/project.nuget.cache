@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5JkvTqNGvR9nRtWh/5daBpwqQZ2An8EKJd0mOURpw71OznfBYPC6SXO4JTQlkLY2MgpWS+VQialmMu4mKMLp4Q==",
+  "dgSpecHash": "KWbknv0BO5kjAPBiPqV/YNO9ZOOd3bP1QTyDwy4pgakODYbvtWpfHlq+Yq6zOevhbDBI1h0iurKTSCJ1611v4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\Webapp.csproj",
+  "projectFilePath": "G:\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klaas\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\klaas\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

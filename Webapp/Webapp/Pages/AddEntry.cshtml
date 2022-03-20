@@ -16,11 +16,15 @@
 <body>
 <div>
     <form method="post" enctype="multipart/form-data">
-            <span>Select File:</span>
-            <input type="file" name="postedFiles" accept="image/jpeg, image/png"/>
-            <input type="submit" value="Upload" asp-page-handler="Upload" />
-            <br/>
-            <span style="color:green">@Html.Raw(Model.Message)</span>
+        <span>Select Front:</span>
+        <input type="file" name="frontPosted" accept="image/jpeg, image/png"/>
+        <br/>
+        <span>Select Back:</span>
+        <input type="file" name="backPosted" accept="image/jpeg, image/png"/>
+        <br/>
+        <input type="submit" value="Upload" asp-page-handler="Upload" />
+        <br/>
+        <span style="color:green">@Html.Raw(Model.Message)</span>
         </form>
 </div>
 </body>
