@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IjxNmt75kV0efMnnYGGzn1+GHmj8HpteJTLtXdRIMGQ=",
+  "Hash": "5f4kkw3QmvflcYLMuTmfBE67eHDOs6DUmIreuVIh7lk=",
   "Source": "Webapp",
   "BasePath": "_content/Webapp",
   "Mode": "Default",
@@ -34,6 +34,23 @@
       "OriginalItemSpec": "wwwroot\\content\\DD-Pocket-299.jpg"
     },
     {
+      "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\content\\LL_Ap.jpg",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "content/LL_Ap.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\LL_Ap.jpg"
+    },
+    {
       "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\content\\sw300.jpg",
       "SourceId": "Webapp",
       "SourceType": "Discovered",
@@ -51,6 +68,23 @@
       "OriginalItemSpec": "wwwroot\\content\\sw300.jpg"
     },
     {
+      "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\LoginPageStylesheet.css",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "css/LoginPageStylesheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginPageStylesheet.css"
+    },
+    {
       "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\PersonalList.css",
       "SourceId": "Webapp",
       "SourceType": "Discovered",
@@ -66,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\PersonalList.css"
+    },
+    {
+      "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\RegisterPageStylesheet.css",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "css/RegisterPageStylesheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\RegisterPageStylesheet.css"
     },
     {
       "Identity": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\wwwroot\\css\\site.css",
