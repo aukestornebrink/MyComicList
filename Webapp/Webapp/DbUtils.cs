@@ -8,9 +8,10 @@ public class DbUtils
     public static IDbConnection Connect()
     {
         return new MySqlConnection(
-            "Server=127.0.0.1;Port=3306;" +
-            "Database=mydb;" +
-            "Uid=root;Pwd=123aukiboy123;"
+            "Server=thefrisiangamer.nl;Port=3306;" +
+            "Database=comics;" +
+            "Uid=project;Pwd=hetwerktniet;"
         );
     }
+    
 }
