@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using MySql.Data;
 using MySql;
 using MySql.Web;
+using Dapper;
 
 namespace Webapp.Pages;
 
@@ -21,30 +22,35 @@ public class LoginPage : PageModel
     public void OnPostTestButton()
     {
         Message = "TEST";
-        
-        string email = "email";
-        string mycon = "server=localhost:3306; Uid=root; password=123aukiboy123; persistsecurityinfo=True; database=mydb; SslMode= none";
 
-        MySqlConnection con = new MySqlConnection(mycon);
-        MySqlCommand cmd = null;
+
+        string cs = @"server=localhost;Uid=root;password=123aukiboy123;database=mydb;";
+        
+        using var con = new MySqlConnection(cs);
+        con.Open();
+
         try
         {
-            cmd.Parameters.AddWithValue("@a1", email);
-            cmd = new MySqlCommand(
-                "insert into account(Username, Email, Password, Rank) values ('Test', 'Test','Test', '1')");
+            var sql = @"INSERT INTO mydb.account (Username,Email,Password,Rank) VALUES(?User, ?Email, ?Password, ?Rank)";
+            using var cmd = new MySqlCommand(sql, con);
 
+            cmd.Parameters.AddWithValue("?User", "Test");
+            cmd.Parameters.AddWithValue("?Email", "Test@test.test");
+            cmd.Parameters.AddWithValue("?Password", "TestTestPassTest");
+            cmd.Parameters.AddWithValue("?Rank", '1');
 
-            con.Open();
             cmd.ExecuteNonQuery();
+            
             con.Close();
-
         }
-        catch (Exception ex)
+        catch (Exception e)
         {
-            Response.WriteAsync("<script>alert('" + ex.Message + "')</script>");
-            con.Close();
-            return;
+            Console.WriteLine(e);
+            throw;
         }
+        
+
+
 
         Response.WriteAsync("<script>alert('Data saved successfully')</script>");
     }
