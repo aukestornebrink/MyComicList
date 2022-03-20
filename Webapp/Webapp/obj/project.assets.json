@@ -1397,19 +1397,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+      "projectUniqueName": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\Webapp.csproj",
       "projectName": "Webapp",
-      "projectPath": "G:\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+      "projectPath": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\Webapp.csproj",
       "packagesPath": "C:\\Users\\klaas\\.nuget\\packages\\",
-      "outputPath": "G:\\MyComicList\\Webapp\\Webapp\\obj\\",
+      "outputPath": "C:\\Users\\klaas\\Documents\\GitHub\\MyComicList\\WebApp\\Webapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\klaas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\klaas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1463,7 +1465,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
