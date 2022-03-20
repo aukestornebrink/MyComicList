@@ -1,0 +1,34 @@
+﻿@*TODO Make page work with .cs file*@
+
+@page
+@model Webapp.Pages.PersonalList
+
+@{
+    ViewData["Title"] = "Personal List"; @*Render _Layout.cshtml*@
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Personal List</title>
+    <link rel="stylesheet" href="~/css/PersonalList.css"/>
+</head>
+<body>
+<div>
+    <h1 style="text-align:center" class="text-3xl">List</h1>
+    <br/>
+    <div class="flex-container">
+        @foreach (var entry in Model.List)
+        {
+            <partial name ="_DisplayList" model="entry"/>
+        }
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
