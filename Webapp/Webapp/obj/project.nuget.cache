@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TUo26veihBH6AWtGhQIwpLM0DOmfjngiXdA8HN3ozlyvZrOBtPNiyQ8XwI1MBRxyL0qfRWlgiKrcI4hm9ZyikQ==",
+  "dgSpecHash": "tUg9BP0vfWTSGGbK1cuadKhyYSySsRNfJ+ggyWdYHeRk4AL920osvxuGVGSlfvtIuuYmB3UzifwxeJXsGAq2/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\auke_\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+  "projectFilePath": "C:\\Users\\auke_\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\auke_\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\auke_\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",

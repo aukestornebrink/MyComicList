@@ -172,3 +172,4 @@ C:\Users\auke_\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\ne
 C:\Users\auke_\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\net6.0\Webapp.pdb
 C:\Users\auke_\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\net6.0\Webapp.genruntimeconfig.cache
 C:\Users\auke_\OneDrive\Documenten\GitHub\MyComicList\Webapp\Webapp\obj\Debug\net6.0\ref\Webapp.dll
+C:\Users\auke_\Documents\GitHub\MyComicList\Webapp\Webapp\bin\Debug\net6.0\tsconfig.json

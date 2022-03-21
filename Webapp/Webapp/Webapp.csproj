@@ -24,6 +24,11 @@
       <Compile Update="Pages\LoginPage.cshtml.cs">
         <DependentUpon>LoginPage.cshtml</DependentUpon>
       </Compile>
+      <Compile Remove="Pages\Search.cshtml.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Pages\Search.cshtml" />
     </ItemGroup>
 
 </Project>
