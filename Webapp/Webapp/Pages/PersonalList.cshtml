@@ -15,6 +15,20 @@
 <body>
 <div>
     <h1 style="text-align:center" class="text-3xl">List</h1>
+    <div class="dropdown">
+        <button class="dropbtn">Sort By</button>
+        <div class="dropdown-content">
+            <form method="post" asp-page-handler="NameButton">
+                <button>Name</button>
+            </form>
+            <form method="post" asp-page-handler="SeriesButton">
+                <button>Series</button>
+            </form>
+            <form method="post" asp-page-handler="AuthorButton">
+                <button>Author</button>
+                </form>
+        </div>
+    </div> 
     <br/>
     <div class="flex-container">
         @foreach (var entry in Model.List)
