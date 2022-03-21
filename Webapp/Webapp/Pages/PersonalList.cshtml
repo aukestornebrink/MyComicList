@@ -18,29 +18,17 @@
 <div>
     <h1 style="text-align:center" class="text-3xl">List</h1>
     <br/>
-    <div class="flex-container"> @*Create Flexbox*@
-        <div class="div">
-            <img src="~/content/sw300.jpg" alt="Suske en Wiske Strip 300"/> @*Cover image*@
-            <h1 class="series">Suske en Wiske</h1> @*Series title*@
-            <h2 class="title">Het Machtige Monument</h2> @*Book title*@
-            <br/> @*Break line for space*@
-            <h3 class="author">Willy Vandersteen -- Standaard Uitgeverij</h3> @*Author and publisher*@
-            <br/>
-            <br/>
-            <p class="Synopsys">Synopsys goes here</p> @*Synopsys*@
-        </div>
-        <div class="div"> @*See previous div*@
-            <img src="~/content/DD-Pocket-299.jpg" alt="Donald Duck Pocket 299"/>
-            <h1 class="series">Donald Duck Pockets</h1>
-            <h2 class="title">Nooit meer Donald</h2>
-            <br/>
-            <h3 class="author">Sanoma Media NL -- Disney</h3>
-            <br/>
-            <br/>
-            <p class="Synopsys">Altijd hetzelfde! Voor Donald hebben oom Dagobert en Katrien geen goed woord over, maar SuperDonald vinden ze helemaal super!
-                                En dus neemt Donald een moeilijk besluit... Voortaan is hij alleen nog SuperDonald! Weer een spannend avontuur in de nieuwste Donald Duck Pocket!</p>
-        </div>
+    <div class="flex-container">
+        @foreach (var entry in Model.List)
+        {
+            <partial name ="_DisplayList" model="entry"/>
+        }
     </div>
 </div>
+
+
+
+
+
 </body>
 </html>
