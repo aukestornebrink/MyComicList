@@ -14,15 +14,41 @@
     <link rel="stylesheet" href="~/css/AddEntry.css"/>
 </head>
 <body>
+<h1>BindProperty: @Model.Name</h1>
+<h1>BindProperty: @Model.Series</h1>
 <div>
     <form method="post" enctype="multipart/form-data">
+        <div class="NameInput">
+            <label for="NameInput" class="form-label">Comic Name</label>
+            <input type="text" class="form-control" id="NameInput" name="NameInput">
+        </div>
+        <div class="SeriesInput">
+            <label for="SeriesInput" class="form-label">Series Name</label>
+            <input type="text" class="form-control" id="SeriesInput" name="SeriesInput">
+        </div>
+        <div class="AuthorInput">
+            <label for="AuthorInput" class="form-label">Author Name</label>
+            <input type="text" class="form-control" id="AuthorInput" name="AuthorInput">
+        </div>
+        <div class="DateInput">
+            <label for="DateInput" class="form-label">Release Date</label>
+            <input type="date" id="DateInput" name="DateInput">
+        </div>
+        <div class="PrintInput">
+            <label for="PrintInput" class="form-label">Print</label>
+            <input type="number" class="form-control" id="PrintInput" name="PrintInput">
+        </div>
+        <div class="SummaryInput">
+            <label for="SummaryInput" class="form-label">Author Name</label>
+            <input type="text" class="form-control" id="SummaryInput" name="SummaryInput">
+        </div>
         <span>Select Front:</span>
         <input type="file" name="frontPosted" accept="image/jpeg, image/png"/>
         <br/>
         <span>Select Back:</span>
         <input type="file" name="backPosted" accept="image/jpeg, image/png"/>
         <br/>
-        <input type="submit" value="Upload" asp-page-handler="Upload" />
+        <input type="submit" value="Upload" asp-page-handler="Upload"/>
     </form>
 </div>
 </body>
