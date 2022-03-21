@@ -5,8 +5,6 @@ using System.Web;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Dapper;
-using Microsoft.EntityFrameworkCore;
-using MySqlConnector;
 using Ubiety.Dns.Core;
 using Webapp.Pages;
 using MySqlCommand = MySql.Data.MySqlClient.MySqlCommand;
@@ -34,8 +32,8 @@ public class LoginPage : PageModel
         var parameters = new {UserName = VarName, Email = VarEmail, Password = VarPass, Rank = DefaultRank};
         var sql = "INSERT INTO account (Username, Email, Password, _Rank) values (@UserName, @Email, @Password, @Rank)";
         var result = db.Query(sql, parameters);
-        
-        Response.WriteAsync("<script>alert('Data saved successfully')</script>");
     }
 
 }
+
+
