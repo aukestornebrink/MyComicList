@@ -9,6 +9,7 @@
 
 <html>
 <head>
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="~/css/LoginPageStylesheet.css"/> @*Stylesheet voor de inlogpagina*@
     <title>Register</title>
 </head>
@@ -20,7 +21,10 @@
                     </div>
                     <div class="registerbox">
                         <form>
-                            
+                            <div class="invulbalk2">
+                                <label for="InputName" class="form-label">UserName</label>
+                                <input type="text" class="form-control" id="InputName" asp-for="@Model.Username">
+                            </div>
                             <div class="invulbalk1">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -29,14 +33,11 @@
         
                             <div class="invulbalk2">
                                 <label for="InputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="InputPassword1">
+                                <input type="password" class="form-control" id="InputPassword1" asp-for="@Model.Password">
                             </div>
-                            <div class="invulbalk2">
-                                <label for="InputPassword2" class="form-label">Confirm password</label>
-                                <input type="password" class="form-control" id="InputPassword2">
-                            </div>
+                            
         
-                            <div class="submitknop">
+                            <div class="&nbsp;">
                                 <button type="submit" class="btn btn-primary">Sign-up</button>
                             </div>
 

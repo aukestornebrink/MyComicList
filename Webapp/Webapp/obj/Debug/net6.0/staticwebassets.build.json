@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8PXkJbdMbADgBfpF1qq77QkKm4djxrKx1BvwiLCCP3E=",
+  "Hash": "NuU+ONvVOl9CFTKQSAN50EYTqxqfHBsjJgihQUj4tJc=",
   "Source": "Webapp",
   "BasePath": "_content/Webapp",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\content\\DD-Pocket-299.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\content\\LL_Ap.jpg",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "content/LL_Ap.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\LL_Ap.jpg"
     },
     {
       "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\content\\sw300.jpg",

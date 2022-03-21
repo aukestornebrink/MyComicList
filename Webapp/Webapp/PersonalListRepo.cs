@@ -16,6 +16,6 @@ public class PersonalListRepo
     public List<PersonalLists> GetPersList()
     {
         using var db = DbUtils.Connect();
-        return db.Query<PersonalLists>("SELECT Name, Series, Summary, Photo_front, Author FROM testdb.comic_information").ToList();
+        return db.Query<PersonalLists>("SELECT Name, Series, Summary, Photo_front, Author FROM comics.comic_information").ToList();
     }
 }

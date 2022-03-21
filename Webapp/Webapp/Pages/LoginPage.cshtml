@@ -19,26 +19,21 @@
                 <div class="titelrow"> @*De "inlog" titel*@
                     <h1 class="display-4">Login</h1>
                 </div>
-                <div class="logindoos">
-                    <form>
-                        
-                        <div class="invulbalk1">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    
-                        </div>
-    
-                        <div class="invulbalk2">
-                            <label for="exampleInputPassword1" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-    
-                        <div class="submitknop">
-                            <button type="submit" class="btn btn-primary">Sign-in</button>
-                        </div>
+        <div class="logindoos">
 
-                    </form>
-                </div>
+                    <div class="invulbalk1">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                            
+            <div class="invulbalk2">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <form class="submitknop" method="post" asp-page-handler="TestButton">
+                <button type="submit" class="btn btn-primary">Sign-in</button>
+            </form>
+        </div>
             </div>
 </div>
 </body>
