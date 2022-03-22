@@ -25,10 +25,6 @@
             <label for="SeriesInput" class="form-label">Series Name</label>
             <input asp-for="Entry.Series" type="text" class="form-control" id="SeriesInput">
         </div>
-        <div class="AuthorInput">
-            <label for="AuthorInput" class="form-label">Author Name</label>
-            <input asp-for="Entry.Author" type="text" class="form-control" id="AuthorInput" required>
-        </div>
         <div class="DateInput">
             <label for="DateInput" class="form-label">Release Date</label>
             <input asp-for="Entry.Date" type="date" id="DateInput" required>
@@ -41,11 +37,16 @@
             <label for="SummaryInput" class="form-label">Summary</label>
             <input asp-for="Entry.Summary" type="text" class="form-control" id="SummaryInput">
         </div>
-        <span>Select Front:</span>
+        <div class="LanguageInput">
+            <label for="LanguageInput" class="form-label">Language</label>
+            <input asp-for="Entry.Language" type="text" class="form-control" id="LanguageInput" required>
+        </div>
+        <div class="GenreInput">
+            <label for="GenreInput" class="form-label">Genre</label>
+            <input asp-for="Entry.Genre" type="text" class="form-control" id="GenreInput" required>
+        </div>
+        <span>Select Cover Image:</span>
         <input type="file" name="frontPosted" accept="image/jpeg, image/png"/>
-        <br/>
-        <span>Select Back:</span>
-        <input type="file" name="backPosted" accept="image/jpeg, image/png"/>
         <br/>
         <input type="submit" value="Upload" asp-page-handler="Upload"/>
     </form>
