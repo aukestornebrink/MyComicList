@@ -1,4 +1,4 @@
-//TODO Fix this
+//TODO Fix this 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Webapp.Pages;
@@ -23,23 +23,26 @@ public class AddEntry : PageModel
     private IWebHostEnvironment Environment;
     public string Message { get; set; }
  
-    [BindProperty(Name = "NameInput")]
-    public string Name { get; set; }
+    // [BindProperty(Name = "NameInput")]
+    // public string Name { get; set; }
+    //
+    // [BindProperty(Name = "SeriesInput")]
+    // public string Series { get; set; }
+    //
+    // [BindProperty(Name = "AuthorInput")]
+    // public string Author { get; set; }
+    //
+    // [BindProperty(Name = "DateInput")]
+    // public string ReleaseDate { get; set; }
+    //
+    // [BindProperty(Name = "PrintInput")]
+    // public int Print { get; set; }
+    //
+    // [BindProperty(Name = "SummaryInput")]
+    // public string Summary { get; set; }
     
-    [BindProperty(Name = "SeriesInput")]
-    public string Series { get; set; }
-    
-    [BindProperty(Name = "AuthorInput")]
-    public string Author { get; set; }
-    
-    [BindProperty(Name = "DateInput")]
-    public string ReleaseDate { get; set; }
-    
-    [BindProperty(Name = "PrintInput")]
-    public int Print { get; set; }
-    
-    [BindProperty(Name = "SummaryInput")]
-    public string Summary { get; set; }
+    [BindProperty]
+    public Entry Entry { get; set; }
     
     public AddEntry(IWebHostEnvironment _environment)
     {
@@ -50,12 +53,17 @@ public class AddEntry : PageModel
     {
  
     }
+
+    // public void OnPostUpload()
+    // {
+    //     var addEntry = new AddEntryRepo().AddEntries(Entry);
+    // }
  
     public void OnPostUpload(List<IFormFile> frontPosted, List<IFormFile> backPosted)
     {
-        DateTime date1 = DateTime.Parse(ReleaseDate,
-            System.Globalization.CultureInfo.InvariantCulture);
-        string sqlFormattedDate = date1.ToString("yyyy-MM-dd");
+        // DateTime date1 = DateTime.Parse(ReleaseDate,
+        //     System.Globalization.CultureInfo.InvariantCulture);
+        // string sqlFormattedDate = date1.ToString("yyyy-MM-dd");
         
         
         
@@ -115,7 +123,8 @@ public class AddEntry : PageModel
                 postedFile.CopyTo(stream);
             }
         }
-
-        AddEntryRepo.AddEntries(Name, Series, Author, sqlFormattedDate, Summary, Print);
+        
+        var addEntry = new AddEntryRepo().AddEntries(Entry);
+        Message = Entry.Author;
     }
 }

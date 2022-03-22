@@ -18,7 +18,8 @@ public class SearchListRepo
     {
         var parameters = new {SearchInput = Search};
         using var db = DbUtils.Connect();
-        return db.Query<SearchLists>("SELECT Name, Series, Summary, Photo_front, Author FROM comics.comic_information WHERE Name LIKE '%' || @SearchInput || '%'").ToList();
+        return db.Query<SearchLists>(@"SELECT Name, Series, Summary, Photo_front, Author 
+        FROM comics.comic_information WHERE Name LIKE '%' || @SearchInput || '%'").ToList();
     }
 }
 
