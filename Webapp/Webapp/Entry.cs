@@ -1,4 +1,4 @@
-namespace Webapp.Pages;
+namespace Webapp;
 
 public class Entry
 {
