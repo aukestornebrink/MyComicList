@@ -12,6 +12,7 @@ public class SearchList : PageModel
     
     public void OnGet()
     {
+        Lists = new SearchListRepo().GetSearchList(Search);
 
     }
     public List<SearchLists> Lists { get; set; }

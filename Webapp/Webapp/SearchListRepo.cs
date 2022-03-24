@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using Webapp.Pages;
@@ -16,9 +17,10 @@ public class SearchListRepo
 
     public List<SearchLists> GetSearchList(string Search)
     {
+        Debug.Write(Search);
         var parameters = new {SearchInput = Search};
         using var db = DbUtils.Connect();
-        return db.Query<SearchLists>("SELECT Name, Series, Summary, Photo_front, Author FROM comics.comic_information WHERE Name LIKE '%' || @SearchInput || '%'").ToList();
+        return db.Query<SearchLists>(@"SELECT * FROM comics.Comic WHERE Name LIKE @SearchInput").ToList();
     }
 }
 

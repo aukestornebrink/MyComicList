@@ -15,36 +15,42 @@
 </head>
 <body>
 <div>
+    <p>@Model.Message</p>
     <form method="post" enctype="multipart/form-data">
         <div class="NameInput">
             <label for="NameInput" class="form-label">Comic Name</label>
-            <input type="text" class="form-control" id="NameInput" name="NameInput">
+            <input asp-for="Entry.Name" type="text" class="form-control" id="NameInput" required>
         </div>
         <div class="SeriesInput">
             <label for="SeriesInput" class="form-label">Series Name</label>
-            <input type="text" class="form-control" id="SeriesInput" name="SeriesInput">
+            <input asp-for="Entry.Series" type="text" class="form-control" id="SeriesInput">
         </div>
         <div class="AuthorInput">
             <label for="AuthorInput" class="form-label">Author Name</label>
-            <input type="text" class="form-control" id="AuthorInput" name="AuthorInput">
+            <input asp-for="Entry.Author" type="text" class="form-control" id="AuthorInput">
         </div>
         <div class="DateInput">
             <label for="DateInput" class="form-label">Release Date</label>
-            <input type="date" id="DateInput" name="DateInput">
+            <input asp-for="Entry.Date" type="date" id="DateInput" required>
         </div>
         <div class="PrintInput">
             <label for="PrintInput" class="form-label">Print</label>
-            <input type="number" class="form-control" id="PrintInput" name="PrintInput">
+            <input asp-for="Entry.Print" type="number" class="form-control" id="PrintInput">
         </div>
         <div class="SummaryInput">
-            <label for="SummaryInput" class="form-label">Author Name</label>
-            <input type="text" class="form-control" id="SummaryInput" name="SummaryInput">
+            <label for="SummaryInput" class="form-label">Summary</label>
+            <input asp-for="Entry.Summary" type="text" class="form-control" id="SummaryInput">
         </div>
-        <span>Select Front:</span>
+        <div class="LanguageInput">
+            <label for="LanguageInput" class="form-label">Language</label>
+            <input asp-for="Entry.Language" type="text" class="form-control" id="LanguageInput" required>
+        </div>
+        <div class="GenreInput">
+            <label for="GenreInput" class="form-label">Genre</label>
+            <input asp-for="Entry.Genre" type="text" class="form-control" id="GenreInput" required>
+        </div>
+        <span>Select Cover Image:</span>
         <input type="file" name="frontPosted" accept="image/jpeg, image/png"/>
-        <br/>
-        <span>Select Back:</span>
-        <input type="file" name="backPosted" accept="image/jpeg, image/png"/>
         <br/>
         <input type="submit" value="Upload" asp-page-handler="Upload"/>
     </form>
