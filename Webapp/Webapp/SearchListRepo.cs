@@ -15,12 +15,14 @@ public class SearchListRepo
     //     public string Author { get; set; }
     // }
 
-    public List<SearchLists> GetSearchList(string Search)
+    public List<SearchLists> GetSearchList(string Search, string SearchBy)
     {
-        Debug.Write(Search);
-        var parameters = new {SearchInput = Search};
         using var db = DbUtils.Connect();
-        return db.Query<SearchLists>(@"SELECT * FROM comics.Comic WHERE Name LIKE @SearchInput").ToList();
+        var parameters = new DynamicParameters();
+        parameters.Add("@SearchBySort", SearchBy);
+        parameters.Add("@SearchInput", Search);
+
+        return db.Query<SearchLists>(@"SELECT * FROM comics.Comic WHERE Comic.Name LIKE @s", new {s = "%"+Search+"%"}).ToList();
     }
 }
 
