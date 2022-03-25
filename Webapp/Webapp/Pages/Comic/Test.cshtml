@@ -1,0 +1,24 @@
+@page
+@model Webapp.CreatePages
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <div class="flex-container">
+            @foreach (var entry in CreatePages.List)
+            {
+                <partial name ="_DisplayList" model="entry"/>
+            }
+        </div>
+</div>
+</body>
+</html>
