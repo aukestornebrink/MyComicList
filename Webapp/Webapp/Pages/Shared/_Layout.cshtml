@@ -20,7 +20,7 @@
             <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/RegisterPage">Register</a>
+                        <a class="nav-link text-black " asp-area="" asp-page="/RegisterPage">Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-page="/LoginPage">Login</a>
@@ -39,10 +39,34 @@
     </main>
 </div>
 
-<footer class="border-top footer text-muted">
+<footer class="footer-dark border-top text-muted align-bottom">
     <div class="container">
-        &copy; 2022 - MyComicList - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        <div class="row">
+            <div class="col-sm-6 col-md item">
+            <h3>Services en Copyright</h3>
+                <label>Deze website neemt alle verantwoordelijkheid voor alle boeken en moeite die in de website is gestoken. Als een boek of informatie van onze website word gebruikt  is de persoon verplicht ons te vermelden anders volgt er een kort geding.</label>
+            </div>
+            <div class="col-sm-6 col-md item">
+            <h3>Contact</h3>
+            <li>
+                <label href="#">Mail: shop@febo.nl</label>
+            </li>    
+            <li>
+                <label href="#">Tel. 085 401 5135</label>
+            </li>   
+            <li>
+                <label href="#">Instagram: febo.nl</label>
+            </li>   
+                    
+        </div>
+            <div class="col-sm-6 col-md item">
+            <h3>حقوق النشر</h3>
+                <label>يتحمل هذا الموقع المسؤولية الكاملة عن جميع الكتب والجهود المبذولة في الموقع. إذا تم استخدام كتاب أو معلومات من موقعنا على الإنترنت ، فإن الشخص ملزم بذكرنا وإلا ستكون هناك إجراءات موجزة. </label>
+                    
+            </div>
+        </div>
     </div>
+    <p class="copyright"> &copy; 2022 - MyComicList - <a asp-area="" asp-page="/Privacy">Privacy</a></p>
 </footer>
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
