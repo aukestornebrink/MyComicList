@@ -19,12 +19,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkRW50cnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/Comic/1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29taWNcMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/Inlogpagina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5sb2dwYWdpbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/LoginPage.cshtml]
@@ -41,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/RegisterPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/Registerpagina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXJwYWdpbmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/klaas/Documents/GitHub/MyComicList/WebApp/Webapp/Pages/Search.cshtml]
