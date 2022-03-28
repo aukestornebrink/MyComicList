@@ -41,3 +41,7 @@
     align-items: center;
     justify-items: center;
 }
+
+.mb-1{
+    margin-bottom: 300px;
+}

@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\enric\\Documents\\Comic\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {}
+    "C:\\Users\\marcd\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {}
   },
   "projects": {
-    "D:\\enric\\Documents\\Comic\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {
+    "C:\\Users\\marcd\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\enric\\Documents\\Comic\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+        "projectUniqueName": "C:\\Users\\marcd\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
         "projectName": "Webapp",
-        "projectPath": "D:\\enric\\Documents\\Comic\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
-        "packagesPath": "C:\\Users\\enric\\.nuget\\packages\\",
-        "outputPath": "D:\\enric\\Documents\\Comic\\MyComicList\\Webapp\\Webapp\\obj\\",
+        "projectPath": "C:\\Users\\marcd\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\Webapp.csproj",
+        "packagesPath": "C:\\Users\\marcd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcd\\OneDrive\\Documenten\\GitHub\\MyComicList\\Webapp\\Webapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
         ],
         "configFilePaths": [
-          "C:\\Users\\enric\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\marcd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
