@@ -1,0 +1,68 @@
+@page
+@model Webapp.Pages.Inlogpagina
+
+@{
+    Layout = null ;
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>@ViewData["Title"] Inlogpagina - The Stripclub</title> @*Paginatitel(boven in de tab bar)*@
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/> @*Stylesheet voor Bootstrap*@
+        <link rel="stylesheet" href="~/css/InlogpaginaStylesheet.css"/> @*Stylesheet voor de inlogpagina*@
+        <script src="~/js/InlogpaginaScript.js"></script>  @*Javascript voor de inlogpagina*@
+</head>
+<body>
+
+
+
+
+<div>
+    <header>
+        <div class="container1"> @*De grote container waar alle inhoud in zit*@
+            <div class="titelrow"> @*De "inlog" titel*@
+                <h1 class="display-4">Login</h1>
+            </div>
+            <div class="logindoos">
+                <form>
+                    
+                    <div class="invulbalk1">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+
+                    <div class="invulbalk2">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="submitknop">
+                        <button type="submit" class="btn btn-primary">Sign-in</button>
+                    </div>
+                    
+                    <div class="registerlink">
+                        <a asp-area="" asp-page="/Registerpagina">Register</a>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - The StripClub - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+</div>
+
+
+
+
+</body>
+</html>
