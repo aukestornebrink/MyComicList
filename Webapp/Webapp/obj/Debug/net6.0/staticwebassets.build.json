@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zJC1z2uSCt8ICC8sbua19rDdsaJWcU8ivNeFX8TmFrg=",
+  "Hash": "vz/6Zao1CMiOHx0K6wRyBscQ3xQEy2ull0B02yWzQ/0=",
   "Source": "Webapp",
   "BasePath": "_content/Webapp",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "wwwroot\\content\\LL_Ap.jpg"
     },
     {
+      "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\content\\pwu43pjt.jpg",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "content/pwu43pjt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\pwu43pjt.jpg"
+    },
+    {
       "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\content\\sw300.jpg",
       "SourceId": "Webapp",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\content\\sw300.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\content\\vdrgp2e4.jpg",
+      "SourceId": "Webapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\",
+      "BasePath": "_content/Webapp",
+      "RelativePath": "content/vdrgp2e4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\content\\vdrgp2e4.jpg"
     },
     {
       "Identity": "C:\\Users\\dynan\\OneDrive\\Documents\\GitHub\\MyComicList\\Webapp\\Webapp\\wwwroot\\css\\AddEntry.css",
