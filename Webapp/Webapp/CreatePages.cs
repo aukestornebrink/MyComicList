@@ -1,3 +1,5 @@
+using Webapp.Pages;
+
 namespace Webapp;
 
 public class CreatePages
@@ -13,27 +15,38 @@ public class CreatePages
 
         foreach (var comic in List)
         {
+            string beun = "\\\"";
+            int i = 0;
             Name = comic.Name;
+            if (Name.Contains('"'))
+            {
+                Name = Name.Replace("\"", beun);
+            }
+
             ID = comic.Comic_ID;
-            string fileLoc1 = "Pages/Comic/" + ID + ".cshtml";
-            string fileLoc2 = "Pages/Comic/comic" + ID + ".cshtml.cs";
+            string fileLoc1 = "Pages/Comic/comic_" + ID + ".cshtml";
+            string fileLoc2 = "Pages/Comic/comic_" + ID + ".cshtml.cs";
             
             string str1 = @"@page" + Environment.NewLine +
-                          "@model comic" + ID + Environment.NewLine +
-                          "@{ViewData[\"Title\"] = " + Name + ";}" + Environment.NewLine +
+                          "@model Webapp.Pages.Comic.comic_" + ID + Environment.NewLine +
+                          "@{" + Environment.NewLine +
+                          "ViewData[\"Title\"] = \"" + Name + "\";" + Environment.NewLine + "}" + Environment.NewLine +
                           Environment.NewLine + "<html lang=\"en\">" + Environment.NewLine +
                           "<head>" + Environment.NewLine + "    <title>Personal List</title>" + Environment.NewLine +
-                          " <link rel=\"stylesheet\" href=\"~/css/comicpage\" asp-append-version=\"true\"/>" +
+                          " <link rel=\"stylesheet\" href=\"~/css/ComicPage.css\" asp-append-version=\"true\"/>" +
                           Environment.NewLine + "</head>" + Environment.NewLine + Environment.NewLine;
 
             string str2 = @"<body>" + Environment.NewLine +
                           " <div>" + Environment.NewLine +
-                          "     <h1>@Model.Name</h1>" + Environment.NewLine +
+                          "@foreach (var entry in Model.List)" + Environment.NewLine +
+            "{" + Environment.NewLine +
+                "<partial name =\"_DisplayComicInfo\" model=\"entry\"/>" + Environment.NewLine +
+            "}" + Environment.NewLine +
                           " </div>" + Environment.NewLine + "</body>";
 
             string cs1 = @"using Microsoft.AspNetCore.Mvc.RazorPages;" + Environment.NewLine +
                          "namespace Webapp.Pages.Comic;" + Environment.NewLine + Environment.NewLine +
-                         "public class comic" + ID + " : PageModel" + Environment.NewLine +
+                         "public class comic_" + ID + " : PageModel" + Environment.NewLine +
                          "{" + Environment.NewLine + "private int ID = " + ID + ";" + Environment.NewLine +
                          "public List<ComicEntry> List { get; set; }" +
                          Environment.NewLine + "public void OnGet()" + Environment.NewLine +
@@ -65,8 +78,7 @@ public class CreatePages
                     sw.Write(cs1);
                 }
             }
-
-            break;
         }
     }
+    
 }
