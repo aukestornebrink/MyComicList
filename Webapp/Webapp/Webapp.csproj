@@ -1,11 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Include="wwwroot\css\InlogpaginaStylesheet.css" />
+      <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Debug\net6.0\Webapp.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net6.0\Webapp.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net6.0\Webapp.RazorAssemblyInfo.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.123" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
+      <PackageReference Include="MySql.Data" Version="8.0.28" />
+      <PackageReference Include="MySqlConnector" Version="2.1.8" />
     </ItemGroup>
 
 </Project>

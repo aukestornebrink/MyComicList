@@ -1,0 +1,76 @@
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('https://images.unsplash.com/photo-1588580000645-4562a6d2c839?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-item:nth-child(2) {
+    background-image: url('https://cdn.catawiki.net/assets/marketing/stories-images/4483-6dbad42f111468f966c16f3ad9827e2d6925e813-og_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-item:nth-child(3) {
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+        margin-top: -58.59px;
+    }
+    #introCarousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item.active {
+        height: 50vh;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.bovenkant {
+    padding-top: 30px;
+}
+.mt-1 {
+    margin-top: 5% !important;
+}
+
+.mt-2 {
+    margin-top: 175px !important;
+}
+
+.mb-2{
+    margin-bottom: 175px !important;
+}
+.px-1{
+    padding-right: 300px !important;
+    padding-left: 100px !important;
+}
+.h-0{
+    
+    height: 487.5px;
+}
+
+
+
+
+
+
+
+
+
+

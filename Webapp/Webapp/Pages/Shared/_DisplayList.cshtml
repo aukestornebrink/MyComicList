@@ -1,0 +1,14 @@
+@model Webapp.PersonalLists
+
+<div class="flex-container"> @*Create Flexbox*@
+    <div class="div">
+        <img src="~/content/@Model.Photo_front" alt=@Model.Name/> @*Cover image*@
+        <h1 class="series">@Model.Series</h1> @*Series title*@
+        <h2 class="title">@Model.Name</h2> @*Book title*@
+        <br/> @*Break line for space*@
+        <h3 class="author">@Model.Author</h3> @*Author and publisher*@
+        <br/>
+        <br/>
+        <p class="synopsys">@Model.Summary</p> @*Synopsys*@
+    </div>
+</div>
